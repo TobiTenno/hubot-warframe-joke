@@ -1,0 +1,24 @@
+{
+  "name": "hubot-warframe-joke",
+  "version": "1.0.0",
+  "description": "A Hubot module for warframe jokes",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliasfalse/hubot-warframe-joke.git"
+  },
+  "keywords": [
+    "warframe",
+    "jokes",
+    "hubot"
+  ],
+  "author": "aliasfalse <matej@voboril.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliasfalse/hubot-warframe-joke/issues"
+  },
+  "homepage": "https://github.com/aliasfalse/hubot-warframe-joke#readme"
+}

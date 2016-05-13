@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/aliasfalse/hubot-warframe-joke.png?label=ready&title=Ready)](https://waffle.io/aliasfalse/hubot-warframe-joke)
 #Hubot Warframe Jokes
 [![Contact me on Discord](https://img.shields.io/badge/discord-Tobiah%238452-7289DA.svg)](https://discord.gg/0108TK6065s44uH5j)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://choosealicense.com/licenses/mit/)

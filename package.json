@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/aliasfalse/hubot-warframe-joke#readme",
   "dependencies": {
-    "hubot-markdown": "^1.1.1"
+    "node-md-config": "^2.0.1"
   }
 }

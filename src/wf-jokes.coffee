@@ -6,8 +6,6 @@
 #
 # Configuration:
 #   HUBOT_ALLOW_DIRTY_JOKES
-#   HUBOT_BLOCK_END
-#   HUBOT_MD_CODE_BLOCK
 #
 # Commands:
 #   hubot joke - sends a warframe joke
@@ -18,9 +16,8 @@
 #   aliasfalse
 
 util = require('util')
+md = require('hubot-markdown')
 
-blockEnd = process.env.HUBOT_BLOCK_END || ' ';
-codeMulti = process.env.HUBOT_MD_CODE_BLOCK || ' ';
 allowLewd = process.env.HUBOT_ALLOW_DIRTY_JOKES || false;
 
 jokes = ["Saryn. Want some STD?",
@@ -75,13 +72,13 @@ module.exports = (robot) ->
     robot.respond /dirtyjoke/, (res) ->
         if allowLewd
             res.send util.format('%s%s%s', '```diff\n-', 
-                res.random(jokes), blockEnd)
+                res.random(jokes), md.blockEnd)
         else
             res.send util.format('%s%s%s', '```diff\n-', 
-                res.random(cleanJokes), blockEnd)
+                res.random(cleanJokes), md.blockEnd)
       
     robot.respond /joke/, (res) ->
         res.send util.format('%s%s%s', '```diff\n-', 
-            res.random(cleanJokes), blockEnd)
+            res.random(cleanJokes), md.blockEnd)
     robot.respond /hug/, (res) ->
-        res.send util.format('%s%s%s', codeMulti, 'Operator, Cephalons do not g-g-g-give huuuu~~ Screw it. ⊂（♡⌂♡）⊃', blockEnd)
+        res.send util.format('%s%s%s', md.codeMulti, 'Operator, Cephalons do not g-g-g-give huuuu~~ Screw it. ⊂（♡⌂♡）⊃', md.blockEnd)

@@ -1,6 +1,6 @@
 {
   "name": "hubot-warframe-joke",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Hubot module for warframe jokes",
   "main": "index.coffee",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/aliasfalse/hubot-warframe-joke/issues"
   },
-  "homepage": "https://github.com/aliasfalse/hubot-warframe-joke#readme"
+  "homepage": "https://github.com/aliasfalse/hubot-warframe-joke#readme",
+  "dependencies": {
+    "hubot-markdown": "^1.1.1"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "hubot-warframe-joke",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A Hubot module for warframe jokes",
   "main": "index.coffee",
   "scripts": {

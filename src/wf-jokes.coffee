@@ -16,9 +16,9 @@
 #   aliasfalse
 
 util = require('util')
-md = require('hubot-markdown')
+md = require('node-md-config')
 
-allowLewd = process.env.HUBOT_ALLOW_DIRTY_JOKES || false;
+allowLewd =  || false;
 
 jokes = ["Saryn. Want some STD?",
          "Mesa. Ya'll bow down to the cowgirl.",

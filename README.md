@@ -7,7 +7,8 @@
 Let your Hubot's inner cephalon out with these Warframe jokes.
 
 
-##Configuration
+## Configuration
+
 | Key | Description | Default |
 |---------------| -------------| --------------|
 |`HUBOT_ALLOW_DIRTY_JOKES` | Whether or not to allow dirty jokes from your cephalon | `false`
@@ -29,8 +30,9 @@ Add `hubot-warframe-joke` to your `external-scripts.json` file.
 ```
 
 ### Commands
+
 |Command | Listener ID | Result|
-|--- | --- |
+|--- | --- | --- |
 |`joke` |`/joke/`| Tells a joke |
 |`dirtyjoke` | `/dirtyjoke/` | Tells a dirty joke (Can be turned off)|
 | `hug` | `/hug/` | sends the operator a hug |
